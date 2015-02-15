@@ -11,3 +11,7 @@ html, body, {
     left: 0;
     right: 0;
 }
+a.url:hover,
+a.zoom:hover {
+    color: #777 !important;
+}
