@@ -20,7 +20,7 @@ function init() {
     _map.setView(_config.locations[0].center, _config.locations[0].zoom);
 
     $.each(_config.locations, function(key,location) {
-        $('.locations').append('<li><a href="" class="location" data-id="' + key + '">' + location.name + '</a></li>');
+        $('.locations').append('<li><a href="#" class="location" data-id="' + key + '">' + location.name + '</a></li>');
     });
 
     $('.location').on('click', function() {
