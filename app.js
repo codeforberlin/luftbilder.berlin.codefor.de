@@ -26,7 +26,6 @@ function init() {
     $('.location').on('click', function() {
         var key = parseInt($(this).attr('data-id'), 10);
         _map.setView(_config.locations[key].center, _config.locations[key].zoom);
-        return false;
     });
 
     $('.zoom').text('Zoom level ' + _map.getZoom());
