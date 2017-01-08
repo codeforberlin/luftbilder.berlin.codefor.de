@@ -132,7 +132,7 @@
         },
         {
             "name": "Gebäudeschäden 1945",
-            "url": "https://tiles.jochenklar.de/gebschaeden/{z}/{x}/{y}.png",
+            "url": "https://tiles.jochenklar.de/gebschaden/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_gebschaden@senstadt&type=FEED\">Geoportal Berlin / Gebäudeschäden 1945</a>",
                 "minZoom": 10,
