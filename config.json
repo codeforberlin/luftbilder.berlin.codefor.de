@@ -105,7 +105,7 @@
         },
         {
             "name": "Historische Karte 1986",
-            "url": "https://tiles.jochenklar.de/1940/{z}/{x}/{y}.png",
+            "url": "https://tiles.jochenklar.de/1986/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1986@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1986</a>",
                 "minZoom": 10,
