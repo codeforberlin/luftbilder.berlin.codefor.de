@@ -1,6 +1,6 @@
 {
   "name": "tiles",
-  "homepage": "https://github.com/jochenklar/tiles",
+  "homepage": "https://github.com/jochenklar/berlin-maps",
   "authors": [
     "Jochen Klar <jochenklar@gmail.com>"
   ],
@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "leaflet": "^1.0.2"
+    "leaflet": "^1.0.2",
+    "jquery": "~3.1.1"
   }
 }

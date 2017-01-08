@@ -15,7 +15,7 @@ function init() {
             var overlay = {};
             $.each(config.overlay, function(key,layer) {
                 overlay[layer.name] = L.tileLayer(layer.url, layer.options);
-            }); 
+            });
 
             base[config.base[0].name].addTo(_map);
 
@@ -23,21 +23,7 @@ function init() {
                 collapsed: false
             }).addTo(_map);
 
-            _map.setView(config.locations[0].center, config.locations[0].zoom);
-
-            $.each(config.locations, function(key,location) {
-                $('.locations').append('<li><a href="#" class="location" data-id="' + key + '">' + location.name + '</a></li>');
-            });
-
-            $('.location').on('click', function() {
-                var key = parseInt($(this).attr('data-id'), 10);
-                _map.setView(config.locations[key].center, config.locations[key].zoom);
-            });
-
-            $('.zoom').text('Zoom level ' + _map.getZoom());
-            _map.on('zoomend', function() {
-                $('.zoom').text('Zoom level ' + _map.getZoom());
-            });
+            _map.setView(config.location.center, config.location.zoom);
         },
         error: function () {
             console.log('Error with json!');
