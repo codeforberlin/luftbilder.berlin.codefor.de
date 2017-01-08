@@ -122,6 +122,33 @@
             }
         },
         {
+            "name": "Hobrechtplan 1862",
+            "url": "https://tiles.jochenklar.de/hobrecht/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_hobrecht@senstadt&type=FEED\">Geoportal Berlin / Hobrechtplan 1862</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
+            "name": "Gebäudeschäden 1945",
+            "url": "https://tiles.jochenklar.de/gebschaeden/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_gebschaden@senstadt&type=FEED\">Geoportal Berlin / Gebäudeschäden 1945</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+                {
+            "name": "Gebäudealter 1992/93",
+            "url": "https://tiles.jochenklar.de/gebaeudealter/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_gebaeudealter@senstadt&type=FEED\">Geoportal Berlin / Gebäudealter 1992/93</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
             "name": "Open street map",
             "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
             "options": {
