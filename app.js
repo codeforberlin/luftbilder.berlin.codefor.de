@@ -17,11 +17,40 @@ function init() {
                 overlay[layer.name] = L.tileLayer(layer.url, layer.options);
             });
 
-            base[config.base[0].name].addTo(_map);
+            var current_layer_name = config.base[0].name;
+            base[current_layer_name].addTo(_map);
 
-            L.control.layers(base, overlay, {
-                collapsed: false
-            }).addTo(_map);
+            var slider = document.getElementById('slider');
+
+            noUiSlider.create(slider, {
+                start: [ 2016 ],
+                direction: 'rtl', // Put '0' at the bottom of the slider
+                orientation: 'vertical', // Orient the slider vertically
+                behaviour: 'tap-drag', // Move handle on tap, bar is draggable
+                step: 150,
+                range: {
+                    'min': [1928, 76],
+                    '50%': [2004, 3],
+                    '62.5%': [2007, 3],
+                    '75%': [2010, 4],
+                    '90%': [2014, 2],
+                    'max': 2016
+                },
+                pips: {
+                    mode: 'steps',
+                    stepped: true,
+                    density: 4
+                }
+            });
+
+            slider.noUiSlider.on('set', function() {
+                var new_layer_name = Math.floor(this.get())
+
+                _map.removeLayer(base[current_layer_name]);
+                _map.addLayer(base[new_layer_name]);
+
+                current_layer_name = new_layer_name;
+            })
 
             _map.setView(config.location.center, config.location.zoom);
         },

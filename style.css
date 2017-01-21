@@ -11,7 +11,31 @@ html, body, {
     left: 0;
     right: 0;
 }
+#slider-background {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10000;
+    height: 240px;
+    width: 120px;
+
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#slider {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    z-index: 10000;
+    height: 200px;
+}
+
 a.url:hover,
 a.zoom:hover {
     color: #777 !important;
+}
+
+.noUi-pips {
+    color: #333;
 }

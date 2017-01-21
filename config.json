@@ -5,7 +5,7 @@
     },
     "base": [
         {
-            "name": "Luftbilder 2016",
+            "name": 2016,
             "url": "https://tiles.jochenklar.de/2016/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2016_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
@@ -14,16 +14,7 @@
             }
         },
         {
-            "name": "Luftbilder 2016 (Infrarot)",
-            "url": "https://tiles.jochenklar.de/2016i/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2016_cir@senstadt&type=FEED\">Geoportal Berlin / Digitale Color-Infrarot-Orthophotos 2016 (DOP20CIR)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2014",
+            "name": 2014,
             "url": "https://tiles.jochenklar.de/2014/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2014@senstadt&type=FEED\">Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
@@ -32,7 +23,7 @@
             }
         },
         {
-            "name": "Luftbilder 2010",
+            "name": 2010,
             "url": "https://tiles.jochenklar.de/2010/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2010@senstadt&type=FEED\">Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
@@ -41,7 +32,16 @@
             }
         },
         {
-            "name": "Luftbilder 2004",
+            "name": 2007,
+            "url": "https://tiles.jochenklar.de/2007/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2007_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2007 (DOP25RGB)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
+            "name": 2004,
             "url": "https://tiles.jochenklar.de/2004/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2004_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
@@ -50,136 +50,10 @@
             }
         },
         {
-            "name": "Luftbilder 1928",
+            "name": 1928,
             "url": "https://tiles.jochenklar.de/1928/{z}/{x}/{y}.png",
             "options": {
                 "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild1928@senstadt&type=FEED\">Geoportal Berlin / Luftbilder 1928, Maßstab 1:4 000</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1650",
-            "url": "https://tiles.jochenklar.de/1650/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1650@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1650</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1690",
-            "url": "https://tiles.jochenklar.de/1690/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1690@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1690</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1750",
-            "url": "https://tiles.jochenklar.de/1750/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1750@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1750</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1800",
-            "url": "https://tiles.jochenklar.de/1800/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1800@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1800</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1850",
-            "url": "https://tiles.jochenklar.de/1850/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1850@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1850</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1880",
-            "url": "https://tiles.jochenklar.de/1880/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1880@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1880</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1910",
-            "url": "https://tiles.jochenklar.de/1910/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1910@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1910</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1940",
-            "url": "https://tiles.jochenklar.de/1940/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1940@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1940</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Historische Karte 1986",
-            "url": "https://tiles.jochenklar.de/1986/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_berlin1986@senstadt&type=FEED\">Geoportal Berlin / Geoportal Berlin / Berlin um 1986</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Geologische Karte 1874-1937",
-            "url": "https://tiles.jochenklar.de/geo/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_geo_18-19@senstadt&type=FEED\">Geoportal Berlin / Geologische Karte 1874-1937</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Hobrechtplan 1862",
-            "url": "https://tiles.jochenklar.de/hobrecht/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_hobrecht@senstadt&type=FEED\">Geoportal Berlin / Hobrechtplan 1862</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Gebäudeschäden 1945",
-            "url": "https://tiles.jochenklar.de/gebschaden/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_gebschaden@senstadt&type=FEED\">Geoportal Berlin / Gebäudeschäden 1945</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-                {
-            "name": "Gebäudealter 1992/93",
-            "url": "https://tiles.jochenklar.de/gebaeudealter/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_gebaeudealter@senstadt&type=FEED\">Geoportal Berlin / Gebäudealter 1992/93</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Open street map",
-            "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "Map data © 2012 OpenStreetMap contributors",
                 "minZoom": 10,
                 "maxZoom": 20
             }
