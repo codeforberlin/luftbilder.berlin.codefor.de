@@ -23,6 +23,33 @@
             }
         },
         {
+            "name": "Luftbilder 2014",
+            "url": "https://tiles.jochenklar.de/2014/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2014@senstadt&type=FEED\">Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
+            "name": "Luftbilder 2010",
+            "url": "https://tiles.jochenklar.de/2010/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2010@senstadt&type=FEED\">Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
+            "name": "Luftbilder 2004",
+            "url": "https://tiles.jochenklar.de/2004/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2004_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
             "name": "Luftbilder 1928",
             "url": "https://tiles.jochenklar.de/1928/{z}/{x}/{y}.png",
             "options": {
