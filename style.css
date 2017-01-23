@@ -14,9 +14,9 @@ html, body {
 #slider-background {
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 10px;
     z-index: 10000;
-    height: 250px;
+    height: 240px;
     width: 110px;
 
     background-color: white;
@@ -25,8 +25,8 @@ html, body {
 }
 #slider {
     position: absolute;
-    top: 40px;
-    right: 100px;
+    top: 30px;
+    right: 90px;
     z-index: 10000;
     height: 200px;
 }
