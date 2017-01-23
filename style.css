@@ -1,4 +1,4 @@
-html, body, {
+html, body {
     position: relative;
     height: 100%;
     padding: 0;
@@ -14,10 +14,10 @@ html, body, {
 #slider-background {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 20px;
     z-index: 10000;
-    height: 240px;
-    width: 120px;
+    height: 250px;
+    width: 110px;
 
     background-color: white;
     border-radius: 4px;
