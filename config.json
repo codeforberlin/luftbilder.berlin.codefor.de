@@ -8,7 +8,7 @@
             "name": 2017,
             "url": "https://tiles.jochenklar.de/2017/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2016_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2017_rgb@senstadt&type=FEED\">Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
