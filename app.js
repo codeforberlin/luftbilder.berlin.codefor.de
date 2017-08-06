@@ -7,10 +7,11 @@ var _slider_opt = {
     behaviour: 'tap-drag',    // Move handle on tap, bar is draggable
     step: 150,
     range: {
-        'min': [1928, 76],    // the second number are the years to the next step
-        '30%': [2004, 3],
-        '45%': [2007, 3],
-        '60%': [2010, 4],
+        'min': [1928, 25],    // the second number are the years to the next step
+        '10%': [1953, 51],
+        '35%': [2004, 3],
+        '50%': [2007, 3],
+        '65%': [2010, 4],
         '80%': [2014, 2],
         '90%': [2016, 1],
         'max': 2017

@@ -59,6 +59,15 @@
             }
         },
         {
+            "name": 1953,
+            "url": "https://tiles.jochenklar.de/1953/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=k_luftbild1953@senstadt&type=WMS\">Geoportal Berlin / Luftbilder 1953, Maßstab 1:22 000</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
             "name": 1928,
             "url": "https://tiles.jochenklar.de/1928/{z}/{x}/{y}.png",
             "options": {
