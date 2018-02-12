@@ -57,6 +57,23 @@ function init() {
             })
 
             _map.setView(config.location.center, config.location.zoom);
+
+            $('#search > button').on('click', function() {
+                var search_string = $('#search input').val();
+
+                if (search_string) {
+                    search_string += ' Berlin';
+                    $.ajax({
+                        url: 'https://nominatim.openstreetmap.org/search?format=json&q=' + encodeURIComponent(search_string),
+                        dataType: 'json',
+                        success: function (result) {
+                            if (result.length > 0) {
+                                _map.setView([result[0].lat, result[0].lon], 18)
+                            }
+                        }
+                    });
+                }
+            });
         },
         error: function () {
             console.log('Error with json!');

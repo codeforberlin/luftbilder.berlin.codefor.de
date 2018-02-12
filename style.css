@@ -30,6 +30,22 @@ html, body {
     z-index: 10000;
     height: 200px;
 }
+#search {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    z-index: 10000;
+
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+
+    padding: 8px;
+}
+
+#search input {
+    width: 300px;
+}
 
 a.url:hover,
 a.zoom:hover {
