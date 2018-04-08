@@ -1,6 +1,4 @@
 *~
+*-
+*.swp
 .DS_Store
-
-components
-
-piwik.js
