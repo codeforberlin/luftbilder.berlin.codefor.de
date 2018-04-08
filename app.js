@@ -84,9 +84,7 @@ function init_slider() {
 function init_search() {
     var search = document.getElementById('search-button');
     search.addEventListener('click', function() {
-
         var search_string = document.getElementById('search-input').value;
-
         if (search_string) {
             search_string += ' Berlin';
 

@@ -1,4 +1,11 @@
 {
+    "view": {
+        "center": [
+            52.51,
+            13.37628
+        ],
+        "zoom": 15
+    },
     "base": [
         {
             "name": "1928",
@@ -72,12 +79,5 @@
             },
             "url": "https://tiles.codefor.de/berlin-2017/{z}/{x}/{y}.png"
         }
-    ],
-    "view": {
-        "center": [
-            52.51,
-            13.37628
-        ],
-        "zoom": 14
-    }
+    ]
 }
