@@ -62,6 +62,15 @@
             "url": "https://tiles.codefor.de/berlin-2014/{z}/{x}/{y}.png"
         },
         {
+            "name": "2015",
+            "options": {
+                "attribution": "<a href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2015_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2015 (DOP20RGB)</a>",
+                "maxZoom": 20,
+                "minZoom": 6
+            },
+            "url": "https://tiles.codefor.de/berlin-2015/{z}/{x}/{y}.png"
+        },
+        {
             "name": "2016",
             "options": {
                 "attribution": "<a href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2016_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
@@ -78,6 +87,15 @@
                 "minZoom": 6
             },
             "url": "https://tiles.codefor.de/berlin-2017/{z}/{x}/{y}.png"
+        },
+        {
+            "name": "2018",
+            "options": {
+                "attribution": "<a href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2018_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2018 (DOP20RGB)</a>",
+                "maxZoom": 20,
+                "minZoom": 6
+            },
+            "url": "https://tiles.codefor.de/berlin-2018/{z}/{x}/{y}.png"
         }
     ]
 }
