@@ -2,7 +2,7 @@ var _map,
     _layers = {};
 
 var _slider_opt = {
-    start: [ 2018 ],          // most recent year +1
+    start: [ 2019 ],          // most recent year +1
     direction: 'rtl',         // Put '0' at the bottom of the slider
     orientation: 'vertical',  // Orient the slider vertically
     behaviour: 'tap-drag',    // Move handle on tap, bar is draggable
@@ -10,14 +10,15 @@ var _slider_opt = {
     range: {
         'min': [1928, 25],    // the second number are the years to the next step
         '10%': [1953, 51],
-        '30%': [2004, 3],
-        '40%': [2007, 3],
-        '50%': [2010, 4],
-        '60%': [2014, 1],
-        '70%': [2015, 1],
-        '80%': [2016, 1],
+        '45%': [2004, 3],
+        '55%': [2007, 3],
+        '65%': [2010, 4],
+        '75%': [2014, 1],
+        '80%': [2015, 1],
+        '85%': [2016, 1],
         '90%': [2017, 1],
-        'max': 2018
+        '95%': [2018, 1],
+        'max': 2019
     },
     pips: {
         mode: 'steps',

@@ -96,6 +96,15 @@
                 "minZoom": 6
             },
             "url": "https://tiles.codefor.de/berlin-2018/{z}/{x}/{y}.png"
+        },
+        {
+            "name": "2019",
+            "options": {
+                "attribution": "<a href=\"http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2019_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2019 (DOP20RGB)</a>",
+                "maxZoom": 20,
+                "minZoom": 6
+            },
+            "url": "https://tiles.codefor.de/berlin-2019/{z}/{x}/{y}.png"
         }
     ]
 }

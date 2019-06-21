@@ -32,7 +32,7 @@ html, body {
     top: 10px;
     right: 10px;
     z-index: 10000;
-    height: 240px;
+    height: 440px;
     width: 110px;
 
     background-color: rgba(255, 255, 255, 0.7);
@@ -42,7 +42,7 @@ html, body {
     top: 30px;
     right: 90px;
     z-index: 10000;
-    height: 200px;
+    height: 400px;
 }
 
 #search {
