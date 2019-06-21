@@ -63,7 +63,7 @@ function init_map(config) {
         _layers[layer.name] = L.tileLayer(layer.url, layer.options);
     });
 
-    _current_layer_name = 2017
+    _current_layer_name = 2019
     _layers[_current_layer_name].addTo(_map);
 
     _map.setView(config.view.center, config.view.zoom);
