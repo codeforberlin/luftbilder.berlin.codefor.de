@@ -12,6 +12,15 @@
     },
     "maps": [
         {
+            "name": "Luftbilder 2022",
+            "url": "https://tiles.codefor.de/berlin-2022-dop20rgbi/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2022_true_rgbi@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
             "name": "Luftbilder 2021",
             "url": "https://tiles.codefor.de/berlin-2021-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
