@@ -1,26 +1,36 @@
 <template>
   <nav>
-    <div class="nav-left">
-      <h1>
-        <a v-bind:href="brand.href">{{ brand.text }}</a>
-      </h1>
+    <div class="nav-top">
+      <div class="nav-left">
+        <h1>
+          <a v-bind:href="brand.href">{{ brand.text }}</a>
+        </h1>
 
-      <div class="info">
-        <a href="" @click.prevent="toggleInfo">
-          <img :src="iconInfo" alt="Information" />
-        </a>
+        <div class="info">
+          <a href="" @click.prevent="toggleInfo">
+            <img :src="iconInfo" alt="Information" />
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <form @submit.prevent="searchLocation()">
+          <input class="search-input" type="search" placeholder="Search address" v-model="searchString" />
+        </form>
+
+        <select class="map-select" v-model="currentMapIndex" @update="changeMap(index)">
+          <option v-for="(map, index) in maps" :key="index" :value="index">
+            {{ map.name }}
+          </option>
+        </select>
       </div>
     </div>
-    <div class="nav-right">
-      <form @submit.prevent="searchLocation()">
-        <input type="search" placeholder="Search address" v-model="searchString" />
-      </form>
 
-      <select v-model="currentMapIndex" @update="changeMap(index)">
-        <option v-for="(map, index) in maps" :key="index" :value="index">
-          {{ map.name }}
-        </option>
-      </select>
+    <div class="nav-bottom">
+      <a class="map-thumbnail" v-for="(map, index) in maps" :key="index"
+           v-bind:style="getBackgroundImage(map)" @click.prevent="changeMap(index)">
+        <p class="map-year">{{ getYear(map) }}</p>
+      </a>
     </div>
 
     <Info v-if="info" :map="map" @onClose="toggleInfo" />
@@ -73,6 +83,18 @@
       },
       toggleInfo: function() {
         this.info = !this.info
+      },
+      changeMap: function(index) {
+        this.$emit('changeMap', index)
+      },
+      getBackgroundImage: function(map) {
+        const url = map.url.replace(/\{z\}\/\{x\}\/\{y\}/i, '16/35198/21494')
+        return {
+          backgroundImage: `url(${url})`
+        }
+      },
+      getYear: function(map) {
+        return map.name.split(' ')[1]
       }
     }
   }
@@ -83,15 +105,30 @@
 
   nav {
     background-color: #f2f2f2;
-    padding: 10px 10px;
+    padding: 10px;
 
-    @media (min-width: $break-point) {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    .nav-top {
+      @media (min-width: $break-point) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
 
-      .nav-left,
-      .nav-right {
+    .nav-bottom {
+      display: none;
+      margin-top: 10px;
+      @media (min-width: $break-point) {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .nav-left,
+    .nav-right {
+      @media (min-width: $break-point) {
         display: flex;
         align-items: center;
       }
@@ -127,25 +164,25 @@
       }
     }
 
-    input[type="search"] {
+    .search-input {
       @media (max-width: $break-point) {
         margin-bottom: 10px;
       }
     }
 
-    select {
+    .map-select {
       @media (min-width: $break-point) {
-        margin-left: 10px;
+        display: none;
       }
     }
 
-    select,
-    input[type="search"] {
+    .search-input,
+    .map-select {
       padding: 6px;
       border: none;
       border: 1px solid silver;
 
-      width: 400px;
+      width: 100%;
       border-radius: 4px;
 
       &:focus {
@@ -153,8 +190,34 @@
       }
 
       @media (min-width: $break-point) {
-        width: 200px;
+        width: 400px;
       }
+    }
+
+    .map-thumbnail {
+      position: relative;
+      cursor: pointer;
+
+      border-radius: 4px;
+
+      background-color: white;
+      background-size: cover;
+      background-position: center;
+
+      width: 300px;
+      height: 80px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .map-year {
+      color: white;
+      position: absolute;
+      bottom: 2px;
+      right: 5px;
+      margin: 0;
     }
   }
 </style>
