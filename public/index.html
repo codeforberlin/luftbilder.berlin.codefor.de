@@ -4,8 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+
+    <title><%= htmlWebpackPlugin.options.meta.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.meta.description %>">
+
+    <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.meta.title %>">
+    <meta name="twitter:description" content="<%= htmlWebpackPlugin.options.meta.description %>">
+    <meta name="twitter:url" content="<%= htmlWebpackPlugin.options.meta.url %>">
+    <meta name="twitter:site" content="<%= htmlWebpackPlugin.options.meta.twitter %>">
+    <meta name="twitter:creator" content="<%= htmlWebpackPlugin.options.meta.twitter %>">
+    <meta name="twitter:image" content="<%= htmlWebpackPlugin.options.meta.image %>">
+    <meta name="twitter:image:alt" content="<%= htmlWebpackPlugin.options.meta.imageAlt %>">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.meta.title %>">
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.meta.description %>">
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.meta.url %>">
+    <meta property="og:site_name" content="<%= htmlWebpackPlugin.options.meta.title %>">
+    <meta property="og:locale" content="<%= htmlWebpackPlugin.options.meta.language %>">
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.meta.image %>">
+    <meta property="og:image:alt" content="<%= htmlWebpackPlugin.options.meta.imageAlt %>">
+    <meta property="og:type" content="website">
+
   </head>
   <body>
     <noscript>

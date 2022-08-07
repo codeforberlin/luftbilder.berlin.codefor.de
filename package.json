@@ -42,5 +42,14 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "meta": {
+    "title": "luftbilder.berlin.codefor.de",
+    "description": "Luftbilder aus dem Geoportal Berlin",
+    "language": "de",
+    "url": "https://luftbilder.berlin.codefor.de",
+    "image": "https://luftbilder.berlin.codefor.de/screenshot.jpg",
+    "imageAlt": "luftbilder.berlin.codefor.de screenshot",
+    "twitter": "@codeforbe"
+  }
 }
