@@ -10,6 +10,9 @@
     <p>
       Die aktuelle Karte zeigt <span v-html="map.options.attribution"></span>. Hinter dem Link gibt es mehr Informationen.
     </p>
+    <p>
+      Die Bilder stammen aus dem <a href="https://www.stadtentwicklung.berlin.de/geoinformation/">Geoportal Berlin</a>, das von der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen des Landes Berlin betriben wird.
+    </p>
   </div>
 </template>
 
@@ -41,10 +44,6 @@
 
     padding: 10px 20px 20px 20px;
 
-    a {
-      text-decoration: none;
-    }
-
     pre {
       background-color: #333;
       color: white;
@@ -59,6 +58,7 @@
 
     .close {
       float: right;
+      text-decoration: none;
     }
 
     :last-child {

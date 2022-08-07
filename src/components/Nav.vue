@@ -134,16 +134,13 @@
       }
     }
 
-    a, a:hover, a:focus, a:visited {
-      color: #333;
-      text-decoration: none;
-    }
-    a:hover {
-      opacity: 0.5;
-    }
-
     h1 {
       margin: 0;
+      font-weight: normal;
+
+      a {
+        text-decoration: none;
+      }
     }
 
     .info {
