@@ -28,7 +28,9 @@
 
     <div class="nav-bottom">
       <a class="map-thumbnail" v-for="(map, index) in maps" :key="index"
-           v-bind:style="getBackgroundImage(map)" @click.prevent="changeMap(index)">
+           v-bind:style="{ backgroundImage: `url(${getBackgroundImage(map)})` }"
+           v-bind:class="{ 'active': index == currentMapIndex }"
+           @click.prevent="changeMap(index)">
         <p class="map-year">{{ getYear(map) }}</p>
       </a>
     </div>
@@ -64,6 +66,9 @@
       }
     },
     watch: {
+      map: function(map) {
+        this.currentMapIndex = this.maps.indexOf(map)
+      },
       currentMapIndex: function(index) {
         this.$emit('changeMap', index)
       }
@@ -88,10 +93,7 @@
         this.$emit('changeMap', index)
       },
       getBackgroundImage: function(map) {
-        const url = map.url.replace(/\{z\}\/\{x\}\/\{y\}/i, '16/35198/21494')
-        return {
-          backgroundImage: `url(${url})`
-        }
+        return map.url.replace(/\{z\}\/\{x\}\/\{y\}/i, '16/35198/21494')
       },
       getYear: function(map) {
         return map.name.split(' ')[1]
@@ -195,6 +197,7 @@
       position: relative;
       cursor: pointer;
 
+      border: 2px solid transparent;
       border-radius: 4px;
 
       background-color: white;
@@ -205,7 +208,11 @@
       height: 80px;
 
       &:hover {
-        opacity: 0.8;
+        opacity: 0.5;
+      }
+
+      &.active {
+        border-color: #ff645f;
       }
     }
 
