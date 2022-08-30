@@ -15,7 +15,7 @@
 
       <div class="nav-right">
         <form @submit.prevent="searchLocation()">
-          <input class="search-input" type="search" placeholder="Search address" v-model="searchString" />
+          <input class="search-input" type="search" placeholder="Adresse suchen" v-model="searchString" />
         </form>
 
         <select class="map-select" v-model="currentMapIndex" @update="changeMap(index)">
