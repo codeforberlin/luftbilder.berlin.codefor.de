@@ -15,7 +15,7 @@
             "name": "Luftbilder 2023",
             "url": "https://tiles.codefor.de/berlin-2023-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2023_true_rgbi@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2023 (DOP20RGBI)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/07ec4c16-723f-32ea-9580-411d8fe4f7e7\">Geoportal Berlin / Digitale farbige Orthophotos 2023 (DOP20RGBI)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -24,7 +24,7 @@
             "name": "Luftbilder 2022",
             "url": "https://tiles.codefor.de/berlin-2022-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=a_luftbild2022_true_rgbi@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/804a9581-a128-37cc-9c25-2b2474ba45eb\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -33,7 +33,7 @@
             "name": "Luftbilder 2021",
             "url": "https://tiles.codefor.de/berlin-2021-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2021_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0682e22d-cd98-3c13-b6fa-a91db67c780eFEED\">Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -42,7 +42,7 @@
             "name": "Luftbilder 2020",
             "url": "https://tiles.codefor.de/berlin-2020-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2020_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2020 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/a338e6ee-5d3a-34c6-9259-ef8a5c0ba66a\">Geoportal Berlin / Digitale farbige Orthophotos 2020 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
