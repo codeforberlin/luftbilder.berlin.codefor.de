@@ -33,6 +33,9 @@
       },
       changeView: function() {
         this.leafletMap.setView(this.center, this.zoom)
+      },
+      changeCenter: function() {
+        this.leafletMap.panTo(this.center)
       }
     },
     watch: {
@@ -40,7 +43,7 @@
         this.changeMap()
       },
       center() {
-        this.changeView()
+        this.changeCenter()
       }
     },
     mounted() {
