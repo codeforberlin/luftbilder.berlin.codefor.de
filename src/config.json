@@ -24,7 +24,7 @@
             "name": "Luftbilder 2022",
             "url": "https://tiles.codefor.de/berlin-2022-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/804a9581-a128-37cc-9c25-2b2474ba45eb\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/7e84c6d1-45db-3ed3-b782-3da8326ed617\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -33,7 +33,7 @@
             "name": "Luftbilder 2021",
             "url": "https://tiles.codefor.de/berlin-2021-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0682e22d-cd98-3c13-b6fa-a91db67c780eFEED\">Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0682e22d-cd98-3c13-b6fa-a91db67c780e\">Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -51,7 +51,7 @@
             "name": "Luftbilder 2019",
             "url": "https://tiles.codefor.de/berlin-2019-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2019_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2019 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/21797ced-f0c0-311a-975e-eb364ee76953\">Geoportal Berlin / Digitale farbige Orthophotos 2019 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -60,7 +60,7 @@
             "name": "Luftbilder 2018",
             "url": "https://tiles.codefor.de/berlin-2018-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2018_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2018 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/571d6f54-45d4-34db-a6db-f916e3579e60\">Geoportal Berlin / Digitale farbige Orthophotos 2018 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -69,7 +69,7 @@
             "name": "Luftbilder 2017",
             "url": "https://tiles.codefor.de/berlin-2017-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2017_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/e98a56c9-c64a-3aba-808f-62f82cca9d1f\">Geoportal Berlin / Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -78,7 +78,7 @@
             "name": "Luftbilder 2016",
             "url": "https://tiles.codefor.de/berlin-2016-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2016_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4b447a4e-a31c-3664-bfa2-5e198b492e5e\">Geoportal Berlin / Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -87,7 +87,7 @@
             "name": "Luftbilder 2015",
             "url": "https://tiles.codefor.de/berlin-2015-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2015_rgb@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2015 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6787eaec-ba58-3b5f-8444-3bf18b1b028e\">Geoportal Berlin / Digitale farbige Orthophotos 2015 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -96,7 +96,7 @@
             "name": "Luftbilder 2014",
             "url": "https://tiles.codefor.de/berlin-2014-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2014@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/794b7e02-4b1e-34ba-ae97-ca4dfb4c7b1c\">Geoportal Berlin / Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -105,7 +105,7 @@
             "name": "Luftbilder 2010",
             "url": "https://tiles.codefor.de/berlin-2010-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2010@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/5661b5ed-8942-3451-b801-43ce0717e4ca\">Geoportal Berlin / Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -114,7 +114,7 @@
             "name": "Luftbilder 2007",
             "url": "https://tiles.codefor.de/berlin-2007-dop20rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2007@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0b48cfb3-8785-3f3d-9825-a770d82781ce\">Geoportal Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -123,7 +123,7 @@
             "name": "Luftbilder 2006",
             "url": "https://tiles.codefor.de/berlin-2006-dop15pan/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2006@senstadt&type=FEED\">Digitale Schwarz-Weiß-Orthophotos 2006 (DOP15PAN)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/fe3eb6e4-5b20-3683-a10d-7d1bf1c41e64\">Digitale Schwarz-Weiß-Orthophotos 2006 (DOP15PAN)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -132,7 +132,7 @@
             "name": "Luftbilder 2004",
             "url": "https://tiles.codefor.de/berlin-2004-dop25rgb/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2004@senstadt&type=FEED\">Geoportal Berlin / Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/22a3d06b-209a-33a3-be04-6407b2bd4f18\">Geoportal Berlin / Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
@@ -141,7 +141,7 @@
             "name": "Luftbilder 1928",
             "url": "https://tiles.codefor.de/berlin-1928/{z}/{x}/{y}.png",
             "options": {
-                "attribution": "<a target=\"blank\" href=\"https://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild1928@senstadt&type=FEED\">Geoportal Berlin / Luftbilder 1928, Maßstab 1:4 000</a>",
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/bed1a566-7002-332a-bf87-f778b4f9fd5d\">Geoportal Berlin / Luftbilder 1928, Maßstab 1:4 000</a>",
                 "minZoom": 10,
                 "maxZoom": 20
             }
