@@ -12,6 +12,15 @@
     },
     "maps": [
         {
+            "name": "Luftbilder 2024",
+            "url": "https://tiles.codefor.de/berlin-2024-dop20rgbi/{z}/{x}/{y}.png",
+            "options": {
+                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/01e2749e-7dca-3492-8f95-29d360c3f1aa\">Geoportal Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)</a>",
+                "minZoom": 10,
+                "maxZoom": 20
+            }
+        },
+        {
             "name": "Luftbilder 2023",
             "url": "https://tiles.codefor.de/berlin-2023-dop20rgbi/{z}/{x}/{y}.png",
             "options": {
