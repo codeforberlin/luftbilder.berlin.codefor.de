@@ -1,159 +1,213 @@
 {
-    "brand": {
-        "text": "luftbilder.berlin.codefor.de",
-        "href": "https://luftbilder.berlin.codefor.de"
+  "brand": {
+    "text": "maps.berlin.codefor.de",
+    "href": "https:/maps.berlin.codefor.de"
+  },
+  "view": {
+    "center": [
+      52.51,
+      13.37628
+    ],
+    "zoom": 14
+  },
+  "maps": [
+    {
+      "name": "Luftbilder 2025",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2025-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2025 (DOP20RGB)",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
     },
-    "view": {
-        "center": [
-            52.51,
-            13.37628
-        ],
-        "zoom": 15
+    {
+      "name": "Luftbilder 2024",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2024-dop20rgbi/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/aff8a8a5-2b48-44e8-949b-ea5f7d382a4f\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
     },
-    "maps": [
-        {
-            "name": "Luftbilder 2024",
-            "url": "https://tiles.codefor.de/berlin-2024-dop20rgbi/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/01e2749e-7dca-3492-8f95-29d360c3f1aa\">Geoportal Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2023",
-            "url": "https://tiles.codefor.de/berlin-2023-dop20rgbi/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/07ec4c16-723f-32ea-9580-411d8fe4f7e7\">Geoportal Berlin / Digitale farbige Orthophotos 2023 (DOP20RGBI)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2022",
-            "url": "https://tiles.codefor.de/berlin-2022-dop20rgbi/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/7e84c6d1-45db-3ed3-b782-3da8326ed617\">Geoportal Berlin / Digitale farbige Orthophotos 2022 (DOP20RGBI)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2021",
-            "url": "https://tiles.codefor.de/berlin-2021-dop20rgbi/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0682e22d-cd98-3c13-b6fa-a91db67c780e\">Geoportal Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2020",
-            "url": "https://tiles.codefor.de/berlin-2020-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/a338e6ee-5d3a-34c6-9259-ef8a5c0ba66a\">Geoportal Berlin / Digitale farbige Orthophotos 2020 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2019",
-            "url": "https://tiles.codefor.de/berlin-2019-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/21797ced-f0c0-311a-975e-eb364ee76953\">Geoportal Berlin / Digitale farbige Orthophotos 2019 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2018",
-            "url": "https://tiles.codefor.de/berlin-2018-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/571d6f54-45d4-34db-a6db-f916e3579e60\">Geoportal Berlin / Digitale farbige Orthophotos 2018 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2017",
-            "url": "https://tiles.codefor.de/berlin-2017-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/e98a56c9-c64a-3aba-808f-62f82cca9d1f\">Geoportal Berlin / Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2016",
-            "url": "https://tiles.codefor.de/berlin-2016-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/4b447a4e-a31c-3664-bfa2-5e198b492e5e\">Geoportal Berlin / Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2015",
-            "url": "https://tiles.codefor.de/berlin-2015-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6787eaec-ba58-3b5f-8444-3bf18b1b028e\">Geoportal Berlin / Digitale farbige Orthophotos 2015 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2014",
-            "url": "https://tiles.codefor.de/berlin-2014-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/794b7e02-4b1e-34ba-ae97-ca4dfb4c7b1c\">Geoportal Berlin / Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2010",
-            "url": "https://tiles.codefor.de/berlin-2010-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/5661b5ed-8942-3451-b801-43ce0717e4ca\">Geoportal Berlin / Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2007",
-            "url": "https://tiles.codefor.de/berlin-2007-dop20rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/0b48cfb3-8785-3f3d-9825-a770d82781ce\">Geoportal Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2006",
-            "url": "https://tiles.codefor.de/berlin-2006-dop15pan/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/fe3eb6e4-5b20-3683-a10d-7d1bf1c41e64\">Digitale Schwarz-Weiß-Orthophotos 2006 (DOP15PAN)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 2004",
-            "url": "https://tiles.codefor.de/berlin-2004-dop25rgb/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/22a3d06b-209a-33a3-be04-6407b2bd4f18\">Geoportal Berlin / Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        },
-        {
-            "name": "Luftbilder 1928",
-            "url": "https://tiles.codefor.de/berlin-1928/{z}/{x}/{y}.png",
-            "options": {
-                "attribution": "<a target=\"blank\" href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/bed1a566-7002-332a-bf87-f778b4f9fd5d\">Geoportal Berlin / Luftbilder 1928, Maßstab 1:4 000</a>",
-                "minZoom": 10,
-                "maxZoom": 20
-            }
-        }
-    ]
+    {
+      "name": "Luftbilder 2023",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2023-dop20rgbi/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/c68a287b-7ad0-4cc9-87f5-2cffebaf7113\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2022",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2022-dop20rgbi/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/c68a287b-7ad0-4cc9-87f5-2cffebaf7113\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2024 (DOP20RGBI)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2021",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2021-dop20rgbi/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/ef0c8276-78af-4444-969f-d01bb7d3c841\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2021 (DOP20RGBI)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2020",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2020-truedop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/95a1430d-04e9-434b-ba1e-9cd9f0e673b6\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige TrueOrthophotos 2020 (TrueDOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2019",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2019-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/5b664b77-ca23-41cc-aba6-312245b559dd\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2019 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2018",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2018-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6cc4151c-7031-4c73-b3a6-43b27b2e3b62\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2018 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2017",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2017-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/947b53e4-f014-3f12-b7a9-f6438f29223e\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2017 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2016",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2016-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/eed6a16b-f86d-3ebe-8c92-0c7d32a6b465\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2016 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2015",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2015-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/f81f42b6-0d14-353c-84dc-fafd55962710\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2015 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2014",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2014-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/e7b59db7-553a-3a47-93a5-70889f6dc77b\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2014 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2013",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2013-truedop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/1b214cf5-ef58-3ca9-975a-ebbf9ffa568f\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Trueorthophotos 2013</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2011",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2011-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/72928789-80fe-3e71-93c4-ba16f46f1b75\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2011 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2010",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2010-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6213d0b9-00ff-36e7-89e4-0b72d846c66a\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2010 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2009",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2009-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/8f70d448-6df2-3181-8944-eb27cf582743\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2009 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2007",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2007-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/de32d147-d803-3340-a4be-ed0119b0bc48\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2007 (DOP20RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2006",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2006-dop15pan/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/b97ca27d-61cc-355b-8905-79ed0c4aa9b7\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale Schwarz-Weiß-Orthophotos 2006 (DOP15PAN)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2004",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2004-dop25rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/7980cb5c-2c9a-3649-9e47-6b6413d2d88e\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige Orthophotos 2004 (DOP25RGB)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 2002",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2002-dop40pan/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/5aaeead0-f953-36c7-ad57-8eda40a1a9ee\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale Schwarz-Weiß-Orthophotos 2002 (DOP40PAN)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 1953",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/1953/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6b746499-7354-3a3a-aa70-60e1fb37f993\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Luftbilder 1953, Maßstab 1:22 000</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
+      "name": "Luftbilder 1928",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/1928/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/6b746499-7354-3a3a-aa70-60e1fb37f993\" _target=\"blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Luftbilder 1928, Maßstab 1:4 000</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    }
+  ]
 }
