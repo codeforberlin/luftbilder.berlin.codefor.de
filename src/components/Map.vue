@@ -24,6 +24,19 @@
         this.leafletMap = L.map('map')
         this.changeView()
         this.changeMap()
+        this.leafletMap.on('moveend', () => {
+          const c = this.leafletMap.getCenter()
+          const [currentLat, currentLon] = this.center;
+          if (currentLat !== c.lat && currentLon !== c.lng) {
+            this.$emit('changeCenter', [c.lat, c.lng])
+          }
+        })
+        this.leafletMap.on('zoomend', () => {
+          const z = this.leafletMap.getZoom()
+          if (z !== this.zoom) {
+            this.$emit('changeZoom', z)
+          }
+        })
       },
       changeMap: function() {
         if (this.leafletLayer) {

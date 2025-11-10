@@ -49,6 +49,8 @@
       brand: Object,
       maps: Array,
       map: Object,
+      center: Array,
+      zoom: Number,
     },
     components: {
       Info
@@ -92,8 +94,18 @@
       changeMap: function(index) {
         this.$emit('changeMap', index)
       },
+      latLonToTile: function(lat, lon, z) {
+        const rad = Math.PI / 180
+        const n = Math.pow(2, z)
+        const x = Math.floor((lon + 180) / 360 * n)
+        const latRad = lat * rad
+        const y = Math.floor((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2 * n)
+        return { x, y }
+      },
       getBackgroundImage: function(map) {
-        return map.url.replace(/\{z\}\/\{x\}\/\{y\}/i, '16/35198/21494')
+        const [lat, lon] = this.center.map(x => parseFloat(x))
+        const { x, y } = this.latLonToTile(lat, lon, this.zoom)
+        return map.url.replace(/\{z\}\/\{x\}\/\{y\}/i, `${this.zoom}/${x}/${y}`)
       },
       getYear: function(map) {
         return map.name.split(' ')[1]
