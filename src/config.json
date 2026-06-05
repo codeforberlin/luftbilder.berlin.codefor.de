@@ -12,6 +12,15 @@
   },
   "maps": [
     {
+      "name": "Luftbilder 2026",
+      "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2026-dop20rgb/{z}/{x}/{y}.png",
+      "options": {
+        "attribution": "<a href=\"https://daten.berlin.de/datensaetze/digitale-farbige-trueorthophotos-2026-dop20rgbi-9ff3159b\" target=\"_blank\">Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin / Digitale farbige TrueOrthophotos 2026 (DOP20RGBI)</a>",
+        "minZoom": 5,
+        "maxZoom": 20
+      }
+    },
+    {
       "name": "Luftbilder 2025",
       "url": "https://tiles.codefor.de/berlin/geoportal/luftbilder/2025-dop20rgb/{z}/{x}/{y}.png",
       "options": {
