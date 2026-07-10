@@ -1,6 +1,6 @@
 <template>
-  <Nav :brand="brand" :maps="maps" :map="map" @changeMap="changeMap" @changeCenter="changeCenter"/>
-  <Map :map="map" :center="center" :zoom="zoom" />
+  <Nav :brand="brand" :maps="maps" :map="map" :center="center" :zoom="zoom" @changeMap="changeMap" @changeCenter="changeCenter"/>
+  <Map :map="map" :center="center" :zoom="zoom" @changeCenter="changeCenter" @changeZoom="changeZoom"/>
 </template>
 
 <script>
@@ -28,6 +28,9 @@
       },
       changeCenter(center) {
         this.center = center
+      },
+      changeZoom(zoom) {
+        this.zoom = zoom
       }
     }
   }
