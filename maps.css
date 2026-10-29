@@ -1,0 +1,30 @@
+/* the OK Lab Berlin orange as primary color, this file is imported after the bootstrap and app styles,
+   so its variables override bootstrap's own */
+
+:root {
+    --bs-primary: #ff645f;
+    --bs-primary-rgb: 255, 100, 95;
+    --bs-primary-text-emphasis: #662826;
+    --bs-primary-bg-subtle: #ffe0df;
+    --bs-primary-border-subtle: #ffc1bf;
+    --bs-link-color: #cc504c;
+    --bs-link-color-rgb: 204, 80, 76;
+    --bs-link-hover-color: #a33d39;
+    --bs-link-hover-color-rgb: 163, 61, 57;
+}
+
+.btn.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff645f;
+    --bs-btn-border-color: #ff645f;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #e65a56;
+    --bs-btn-hover-border-color: #e65a56;
+    --bs-btn-focus-shadow-rgb: 255, 100, 95;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #cc504c;
+    --bs-btn-active-border-color: #cc504c;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ff645f;
+    --bs-btn-disabled-border-color: #ff645f;
+}
