@@ -11,6 +11,7 @@
     --bs-link-color-rgb: 204, 80, 76;
     --bs-link-hover-color: #a33d39;
     --bs-link-hover-color-rgb: 163, 61, 57;
+    --bs-border-radius-pill: var(--bs-border-radius-lg);
 }
 
 .btn.btn-primary {
