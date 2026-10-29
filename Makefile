@@ -18,7 +18,10 @@ preview:
 install:
 	$(NVM) npm ci
 
-local:
+clean:
+	rm -rf dist node_modules
+
+local: clean
 	rm -rf node_modules/@jochenklar/maps node_modules/.vite
 	$(NVM) npm install --no-save --install-links ../maps
 
