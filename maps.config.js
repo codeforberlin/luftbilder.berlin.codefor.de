@@ -18,6 +18,8 @@ export default {
   view: {
     center: [52.51, 13.37628],
     zoom: 14,
+    minZoom: 9,
+    maxZoom: 19,
   },
   panes: {
     maxLevel: 2,
