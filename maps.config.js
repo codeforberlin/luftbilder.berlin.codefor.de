@@ -28,15 +28,13 @@ export default {
     modal: false,
     filmstrip: true,
   },
-  // the Großer Stern
-  thumbnail: '16/35198/21494',
-  // the other site of the OK Lab Berlin, which opens with the current view
+  thumbnail: '16/35198/21494',  // Großer Stern
   external: [
-    ...defaults.external,
     {
       name: 'maps.berlin.codefor.de',
       url: 'https://maps.berlin.codefor.de/',
     },
+    ...defaults.external,
   ],
   maps,
 }
