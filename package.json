@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jochenklar/maps": "^1.1.0",
+    "@jochenklar/maps": "^1.2.0",
     "@vitejs/plugin-react": "^6.1.2",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
