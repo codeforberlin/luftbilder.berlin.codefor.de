@@ -34,6 +34,10 @@ export default {
       name: 'maps.berlin.codefor.de',
       url: 'https://maps.berlin.codefor.de/',
     },
+    {
+      name: 'stadtplan.berlin.codefor.de',
+      url: 'https://stadtplan.berlin.codefor.de/',
+    },
     ...defaults.external,
   ],
   maps,
